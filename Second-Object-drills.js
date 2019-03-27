@@ -10,17 +10,55 @@ console.log(loaf.hydration());
 console.log(loaf.flour, loaf.water);
 
 const funnyObj = {
+<<<<<<< HEAD
   foo: 'Brian',
   bar: 50,
   fum: 'developer',
   quux: 'blaabla',
   spam: ' lalalalaaaaa'
+=======
+  foo: "Brian",
+  bar: 50,
+  fum: "developer",
+  quux: "blaabla",
+  spam: " lalalalaaaaa"
+>>>>>>> e7544242325e907a46ce8d7c6d38ee40d81ba9f9
 };
 for (let item in funnyObj) {
   console.log(funnyObj[item]);
 }
 
 const hobbitM = {
+<<<<<<< HEAD
+=======
+  meals: ['breakfast','second breakfast','elevenses','lunch','afternoon tea','dinner','supper']
+};
+console.log(hobbitM.meals[3]);
+
+const company = [
+  {name:'kasia', jobTitle: 'student', boss: 'Jim'},
+  {name: ' Brian', jobTitle: 'student', boss: 'Jim'},
+  {name: ' jeff' ,jobTitle: 'instructor', boss: 'Jim'},
+  {name: 'Uzair', jobTitle:'mentor', boss: 'Jim' },
+  {name: 'Jim' ,jobTitle: 'owner'}
+];
+
+
+company.forEach(function(person){
+  console.log(person.name, person.jobTitle);
+    
+});
+
+company.forEach(function(person){
+  if (!person.boss){
+    console.log(`${person.jobTitle} ${person.name} reports to nobody`);
+  } else {
+    console.log(`${person.jobTitle} ${person.name} reports to ${person.boss}.`);
+  }
+});
+
+
+>>>>>>> e7544242325e907a46ce8d7c6d38ee40d81ba9f9
   meals: [
     'breakfast',
     'second breakfast',
