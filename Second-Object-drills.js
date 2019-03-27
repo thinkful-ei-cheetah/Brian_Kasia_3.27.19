@@ -10,15 +10,6 @@ console.log(loaf.hydration());
 console.log(loaf.flour, loaf.water);
 
 const funnyObj = {
-<<<<<<< HEAD
-  foo: 'Brian',
-  bar: 50,
-  fum: 'developer',
-  quux: 'blaabla',
-  spam: ' lalalalaaaaa',
-};
-for( let item in funnyObj){
-=======
   foo: "Brian",
   bar: 50,
   fum: "developer",
@@ -26,12 +17,10 @@ for( let item in funnyObj){
   spam: " lalalalaaaaa"
 };
 for (let item in funnyObj) {
->>>>>>> baf8811886a6ce1a2c27c10feec07d4556f0adf0
   console.log(funnyObj[item]);
 }
 
 const hobbitM = {
-<<<<<<< HEAD
   meals: ['breakfast','second breakfast','elevenses','lunch','afternoon tea','dinner','supper']
 };
 console.log(hobbitM.meals[3]);
@@ -58,7 +47,7 @@ company.forEach(function(person){
   }
 });
 
-=======
+
   meals: [
     "breakfast",
     "second breakfast",
@@ -108,4 +97,3 @@ obj.forEach(person => {
     );
   }
 });
->>>>>>> baf8811886a6ce1a2c27c10feec07d4556f0adf0
