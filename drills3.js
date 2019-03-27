@@ -51,3 +51,6 @@ function keyDeleter(obj) {
 }
 console.log(keyDeleter(sampleObj));
 
+function updateStudents(students){
+
+}
